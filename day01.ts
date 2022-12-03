@@ -49,15 +49,14 @@ async function day01b() {
 
   sums.sort((n1, n2) => n1 - n2);
 
-  console.log(sums)
-  console.log(sums.length)
   let last1 = sums[sums.length - 1]
   let last2 = sums[sums.length - 2]
   let last3 = sums[sums.length - 3]
 
-  console.log(last1, last2, last3)
-  console.log(last1 + last2 + last3) // 204837 too low
+  console.log(last1 + last2 + last3)
 }
 
-day01a();
-day01b();
+export default async function day01() {
+  day01a()
+  day01b()
+}

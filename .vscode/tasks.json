@@ -4,12 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
-            "type": "shell",
-            "command": "echo Hello"
-        },
-        {
-            "label": "builddingejte",
+            "label": "build-watcher",
             "command": "tsc.cmd",
             "type": "shell",
             "presentation": {
@@ -17,11 +12,7 @@
                 "panel": "new"
             },
             "args": [
-                "--target",
-                "ES5",
-                "--sourceMap",
-                "--watch",
-                "day01.ts"
+                "--target", "ES5", "--sourceMap", "--watch", "aoc.ts", "--outDir", "./js"
             ],
             "problemMatcher": [],
             "group": {

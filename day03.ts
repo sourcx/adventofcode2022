@@ -2,16 +2,14 @@ const fs = require('fs');
 
 async function findOverlap2(compartment1: string, compartment2: string): Promise<string> {
   for (const char of compartment1) {
-    if (compartment2.indexOf(char) !== -1) {
-      return char
-    }
+    if (compartment2.includes(char)) return char
   }
   throw new Error()
 }
 
 function findOverlap3(bags: string[]): string {
   for (const char of bags[0]) {
-    if (bags[1].indexOf(char) !== -1 && bags[2].indexOf(char) !== -1) {
+    if (bags[1].includes(char) && bags[2].includes(char)) {
       return char
     }
   }

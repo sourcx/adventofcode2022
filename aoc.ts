@@ -1,6 +1,7 @@
 ﻿import day01 from "./day01.js";
 import day02 from "./day02.js";
 import day03 from "./day03.js";
+import day04 from "./day04.js";
 
 // --- Day 1: Calorie Counting-- -
 // day01()
@@ -9,4 +10,7 @@ import day03 from "./day03.js";
 // day02()
 
 // --- Day 3: Rucksack Reorganization-- -
-day03()
+// day03()
+
+// --- Day 4: Camp Cleanup-- -
+day04()

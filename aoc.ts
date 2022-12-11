@@ -4,6 +4,7 @@ import day03 from "./day03";
 import day04 from "./day04";
 import day05 from "./day05";
 import day06 from "./day06";
+import day07 from "./day07";
 
 // --- Day 1: Calorie Counting-- -
 // day01()
@@ -21,4 +22,7 @@ import day06 from "./day06";
 // day05()
 
 // --- Day 6: Tuning Trouble-- -
-day06()
+// day06()
+
+// --- Day 7: No Space Left On Device-- -
+day07()
